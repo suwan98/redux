@@ -7,7 +7,7 @@
 - 전역 상태로 사용애햐하는 중앙 저장소 역할을 하게되며, 예측 가능한 방식으로만 상태를 업데이트할 수 있도록하는 규칙을 지정합니다.
 - 현재 Redux 팀 내에서도 Redux 대신 Redux-toolkit의 사용을 **강력히 권고**하고 있습니다.
 
-![Alt text](./docs/assest/what-redux.png)
+<p align="center"><img src="./docs/assest/what-redux.png"></p>
 
 ### 리덕스를 사용해야하는 이유는 뭘까요?
 
@@ -96,8 +96,11 @@ store.dispatch({type: "counter/increment"});
 console.log(store.getState()); // 1
 ```
 
-## Redux로 Todolist 만들기
+<br />
+<br />
 
-**리덕스로 Todolist를 만들며 직접 학습합니다.**
+## 🏊‍♂️ Redux-Toolkit으로 Todolist 만들기
+
+**Redux-Toolkit으로 Todolist를 만들며 직접 학습합니다.**
 
 - 자세한 설명은 [Redux로 TodoList 만들기](./todoApp/README.md)에서 확인하실 수 있습니다.
