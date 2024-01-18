@@ -232,4 +232,4 @@ export default App;
 
 <br />
 
-<p align="center"><img src="/assets/todo.gif"></p>
+<p align="center"><img src="public/assets/todo.gif"></p>
