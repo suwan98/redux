@@ -1,4 +1,4 @@
-# Redux Statement Library
+# Redux Statement Management Library
 
 ## 리덕스란?
 
@@ -8,6 +8,9 @@
 - 현재 Redux 팀 내에서도 Redux 대신 Redux-toolkit의 사용을 **강력히 권고**하고 있습니다.
 
 <p align="center"><img src="./docs/assest/what-redux.png"></p>
+
+<br />
+<br />
 
 ### 리덕스를 사용해야하는 이유는 뭘까요?
 
@@ -20,6 +23,9 @@
 ### 리덕스의 데이터 플로우
 
 ![Alt text](./docs/assest/reduxt-data-flow.png)
+
+<br />
+<br />
 
 ## Action
 
@@ -38,6 +44,9 @@ const addTodoAction = {
 };
 ```
 
+<br />
+<br />
+
 ## Action Createor
 
 **액션 크리에이터는 액션 객체를 생성하고 반환하는 함수입니다**
@@ -52,6 +61,9 @@ const addTodo = (text) => {
   };
 };
 ```
+
+<br />
+<br />
 
 ## Reducer
 
@@ -82,6 +94,9 @@ function counterReducer(state = initialState, action) {
 1. 상태 와 액션을 기반으로 새로운 상태 값만을 작성해야합니다.
 2. 기존 상태를 수정할 수 없습니다 ❌(따라서 복사를 통해 복사된 값을 변경하는 방식으로 업데이트를 수행해야 합니다.)
 3. 로직 이외에 부수효과를 일으키는 로직은 작성하면 안됩니다 ❌ (리듀서는 순수함수로만 구현해야합니다.)
+
+<br />
+<br />
 
 ## Dispatch
 
