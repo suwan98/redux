@@ -95,3 +95,9 @@ store.dispatch({type: "counter/increment"});
 
 console.log(store.getState()); // 1
 ```
+
+## Redux로 Todolist 만들기
+
+**리덕스로 Todolist를 만들며 직접 학습합니다.**
+
+- 자세한 설명은 [Redux로 TodoList 만들기](./todoApp/README.md)에서 확인하실 수 있습니다.
