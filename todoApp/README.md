@@ -1,4 +1,4 @@
-# Redux로 TodoList 만들기
+# Redux-Toolkit으로 TodoList 만들기
 
 ## 0. Set Up
 
